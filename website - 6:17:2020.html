@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HTML Page</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			body {
+  				font-family: Arial, Helvetica, sans-serif;
+			}
+			.header { 
+				padding:40px;
+				text-align:center;
+				background:#FF9999;
+				color:white;
+			}
+			.header p {
+				font-size:10px;
+			}
+			.navbar {
+				overflow:hidden;
+				background:#222222;
+			}
+			.navbar a {
+				float: left; /* Make sure that the links stay side-by-side */
+  				display: block; /* Change the display to block, for responsive reasons (see below) */
+  				color: white;
+  				text-align: center;
+ 				padding: 14px 20px; /* Padding above and below, and left and right */
+  				text-decoration: none; /* Remove underline */
+			}
+			.navbar a.right {
+				float:right;
+			}
+			.navbar a:hover {
+				background:dddd;
+				color:blue;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="header">
+		<h1>Welcome to my website</h1>
+		<p>
+			Administrator: <strong>Lantzen Lowe</strong>
+			
+		</p>
+	</div>
+	<div class="navbar">
+		<a href="#">Link1</a>
+		<a href="#">Link2</a>
+		<a href="mailto:lantzenlowe@gmail.com?bcc=lantzlowe15@gmail.com, mcneildoris@gmail.com&subject=Email Test from Website" class="right">Email Administrator</a>
+	</div>
+	</body>
+</html>
